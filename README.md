@@ -1,5 +1,5 @@
 # FEATURES
 
-- [] Arreglar el cambio de nombre
-- [] Establecer una imagen como fondo para el app
-- [] Arreglar el bug, mucho demora cuando cambiamos de directorio a otro disco
+- [] Fix name change
+- [] Set an image as background for the app
+- [] Fix the bug, long delay when changing directory to another disk
