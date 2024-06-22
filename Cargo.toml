@@ -1,0 +1,18 @@
+[package]
+name = "aimet-manager-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.22.0"
+egui = "0.22.0"
+rfd = "0.11.0"
+fs2 = "0.4.3"
+walkdir = "2.3.3"
+image = "0.24.6"
+
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3", features = ["winuser", "fileapi", "winbase"] }
+
+[package.metadata.winres]
+"windows" = true
