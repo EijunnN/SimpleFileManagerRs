@@ -1,4 +1,3 @@
-// src/file_operations.rs
 use crate::file_manager::{FileEntry, FileManager};
 use std::fs;
 use std::path::Path;

@@ -1,4 +1,3 @@
-// src/search.rs
 use crate::file_manager::{FileEntry, FileManager};
 use std::time::{Duration, Instant, SystemTime};
 use walkdir::WalkDir;
@@ -6,7 +5,7 @@ use walkdir::WalkDir;
 pub fn search_files(file_manager: &mut FileManager) {
     let now = Instant::now();
     if now.duration_since(file_manager.last_search_time) < Duration::from_millis(400) {
-        return; // Don't search if less than 300ms has passed since the last search
+        return;
     }
 
     file_manager.last_search_time = now;

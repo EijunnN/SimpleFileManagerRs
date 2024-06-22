@@ -1,5 +1,3 @@
-// src/file_manager.rs
-
 use crate::file_operations;
 use eframe::egui;
 use image;

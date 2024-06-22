@@ -1,4 +1,3 @@
-// src/ui.rs
 use crate::file_manager::FileManager;
 use crate::file_operations;
 use crate::search;
