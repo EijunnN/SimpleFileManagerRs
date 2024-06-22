@@ -1,4 +1,4 @@
-// src/main.rs
+// // src/main.rs
 #![windows_subsystem = "windows"]
 use eframe;
 
@@ -10,6 +10,7 @@ mod ui;
 fn main() -> Result<(), eframe::Error> {
     let options = eframe::NativeOptions {
         initial_window_size: Some(egui::vec2(400.0, 600.0)),
+
         ..Default::default()
     };
     eframe::run_native(
